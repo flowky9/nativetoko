@@ -38,7 +38,7 @@ if($user_id){
 			if(file_exists($filename)){
 				include_once($filename);
 			}else{
-				echo "Maaf, File tersebut tidak ada dalam sistem";
+				echo "<p> Maaf, File tersebut tidak ada dalam sistem</p>";
 			}
 
 		 ?>
