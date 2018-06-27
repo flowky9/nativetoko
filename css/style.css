@@ -1,0 +1,164 @@
+* {
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family : arial;
+	font-size :12px;
+	color:#1e5474;
+	background:#f7f7f7;
+}
+
+#container {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+/*HALAMAN UTAMA*/
+#container #header {
+    margin-top: 20px;
+}
+
+#container #header #menu {
+    background: #1e5474;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+#user {
+    color: white;
+}
+#container #header #menu #user {
+    float: left;
+}
+
+#container #header #menu #user a {
+    color: white;
+    padding: 0px 5px 0px 0px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu #button-keranjang {
+    float: right;
+    background: orange;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+#menu #button-keranjang img {
+    vertical-align: bottom;
+}
+
+#container #footer {background: #135474;padding: 10px;}
+
+#footer p {
+    color: white;
+    text-align: right;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0px;
+}
+
+#container #content {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+/* FORM REGISTER */
+
+#container-user-akses {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.element-form {
+    margin-bottom: 15px;
+}
+
+.element-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.element-form span {
+    display: block;
+}
+
+.element-form input[type="text"],
+.element-form input[type="email"],
+.element-form input[type="password"],
+.element-form textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.element-form input[type="submit"] {
+    background: #1e5474;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.element-form input[type="submit"]:hover {
+    background:orange;
+}
+
+/*PARTIAL*/
+
+.notif {
+    background: #1e5474;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+/*MY PROFILE*/
+
+ul {}
+
+#bg-page-profile {
+    overflow: hidden;
+}
+
+#menu-profile {
+    float: left;
+    width: 245px;
+    background: #1e5474;
+}
+
+#menu-profile ul {
+    list-style: none;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover {
+    background:orange;
+}
+
+#menu-profile ul li a.active {
+    background:orange;
+}
+
+#profile-content {
+    float: left;
+    width: 835px;
+    padding: 10px;
+    background: white;
+}
