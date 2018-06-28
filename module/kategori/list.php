@@ -26,7 +26,7 @@
 					<td class='tengah'>$row[status]</td>
 					<td class='tengah'>
 						<a class='tombol-action' href='".BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
-						<a class='tombol-action' href='".BASE_URL."index.php?page=my_profile&module=kategori&action=delete&kategori_id=$row[kategori_id]'>Delete</a>
+						<a class='tombol-action' href='".BASE_URL."module/kategori/delete.php?kategori_id=$row[kategori_id]'>Delete</a>
 					</td>
 
 

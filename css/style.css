@@ -93,7 +93,9 @@ body{
 .element-form input[type="text"],
 .element-form input[type="email"],
 .element-form input[type="password"],
-.element-form textarea {
+.element-form textarea,
+.element-form select,
+.element-form input[type="number"] {
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
@@ -202,7 +204,8 @@ td.kolom-nomor {
     text-align: center;
 }
 
-td.kiri {
+td.kiri,
+th.kiri {
     text-align: left;
 }
 
@@ -227,4 +230,8 @@ td.kanan {
 
 .table-list tr:nth-child(2n+3){
     background:#eaf4f9;
+}
+
+img.gambar-edit {
+    margin: 10px;
 }
