@@ -235,3 +235,17 @@ td.kanan {
 img.gambar-edit {
     margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+/*CK EDITOR*/
+div#cke_ckeditor {
+    margin-top: 5px;
+}   

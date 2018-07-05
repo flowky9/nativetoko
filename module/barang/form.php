@@ -59,9 +59,12 @@
 			</span>
 	</div>
 
-	<div class="element-form">
-			<label>Deskripsi Barang</label>
-			<span><textarea name="spesifikasi" id="" <?php echo $spesifikasi; ?> rows="10"><?php echo $spesifikasi; ?></textarea></span>
+	<div style="margin-bottom:10px">
+			<label style="margin-bottom:5px;font-weight:bold;">Deskripsi Barang</label>
+			<span><textarea class="ckeditor" id="ckeditor" name="spesifikasi"><?php echo $spesifikasi; ?></textarea></span>
+			<script>
+				CKEDITOR.replace("ckeditor");
+			</script>
 	</div>
 	
 	<div class="element-form">
@@ -95,3 +98,4 @@
 	</div>
 
 </form>
+

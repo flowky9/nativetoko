@@ -17,6 +17,13 @@ $level = isset($_SESSION['level']) ? $_SESSION['level'] : false;
 	<head>
 		<title>NativeToko | Jual Barang Elektronik</title>
 		<link href="<?php echo BASE_URL."css/style.css"; ?>" type="text/css" rel="stylesheet">
+		<?php 
+
+				if(isset($_GET['action']) == 'form'){
+					echo "<script src='js/ckeditor/ckeditor.js'></script>";
+				}
+
+		 ?>
 	</head>	
 
 	<body>
